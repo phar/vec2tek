@@ -24,4 +24,18 @@ optional arguments:
   -P PAUSE, --pause PAUSE
                         wait for <enter> before exiting
 
+<pre>
+
+
+dont forget to tweak the decimation value otherwise your output files (and display times) will be huge and slow..<br>
+
+</pre>
+(base) lil-Euclid-10:vec2tek phar$ python svg2tek.py world-map-continents-country-flat.svg  -a True  -d30 > l1
+
+(base) lil-Euclid-10:vec2tek phar$ python svg2tek.py world-map-continents-country-flat.svg  -a True   > l2
+
+(base) lil-Euclid-10:vec2tek phar$ ls -l l1 l2
+-rw-r--r--  1 phar  staff    5296 Nov 18 11:59 l1
+-rw-r--r--  1 phar  staff  149696 Nov 18 11:59 l2
+
 </pre>
