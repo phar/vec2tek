@@ -1,3 +1,4 @@
+<pre>
 # vec2tek
 SVG to tektronix 40xx vt340 terminal graphics.. weee
 
@@ -23,3 +24,4 @@ optional arguments:
   -P PAUSE, --pause PAUSE
                         wait for <enter> before exiting
 
+</pre>
